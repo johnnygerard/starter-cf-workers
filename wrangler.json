@@ -1,7 +1,7 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "compatibility_date": "2026-04-30",
-  "compatibility_flags": ["nodejs_compat"],
+  "compatibility_flags": ["global_fetch_strictly_public"],
   "main": "src/index.js",
   "name": "starter-cf-workers",
   "observability": {
