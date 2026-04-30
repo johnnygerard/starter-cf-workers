@@ -1,11 +1,11 @@
 {
-	"$schema": "node_modules/wrangler/config-schema.json",
-	"name": "starter-cf-workers",
-	"main": "src/index.js",
-	"compatibility_date": "2026-04-30",
-	"observability": {
-		"enabled": true,
-	},
-	"upload_source_maps": true,
-	"compatibility_flags": ["nodejs_compat"],
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "starter-cf-workers",
+  "main": "src/index.js",
+  "compatibility_date": "2026-04-30",
+  "observability": {
+    "enabled": true
+  },
+  "upload_source_maps": true,
+  "compatibility_flags": ["nodejs_compat"]
 }
