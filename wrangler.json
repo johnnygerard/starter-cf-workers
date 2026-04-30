@@ -7,5 +7,6 @@
   "observability": {
     "enabled": true
   },
+  "send_metrics": false,
   "upload_source_maps": true
 }
