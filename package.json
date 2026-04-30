@@ -1,8 +1,6 @@
 {
   "devDependencies": {
-    "@cloudflare/vitest-pool-workers": "^0.12.4",
     "prettier": "3.8.3",
-    "vitest": "~3.2.0",
     "wrangler": "^4.86.0"
   },
   "name": "starter-cf-workers",
@@ -11,8 +9,7 @@
     "deploy": "wrangler deploy",
     "dev": "wrangler dev",
     "format": "prettier --write .",
-    "format:check": "prettier --check .",
-    "test": "vitest"
+    "format:check": "prettier --check ."
   },
   "version": "0.0.0"
 }
