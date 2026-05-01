@@ -9,7 +9,8 @@
     "deploy": "wrangler deploy",
     "dev": "wrangler dev",
     "format": "prettier --write .",
-    "format:check": "prettier --check ."
+    "format:check": "prettier --check .",
+    "wg": "wrangler"
   },
   "type": "module",
   "version": "0.0.0"
