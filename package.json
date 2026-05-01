@@ -11,5 +11,6 @@
     "format": "prettier --write .",
     "format:check": "prettier --check ."
   },
+  "type": "module",
   "version": "0.0.0"
 }
