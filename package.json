@@ -4,6 +4,18 @@
     "vitest": "^4.1.5",
     "wrangler": "^4.86.0"
   },
+  "devEngines": {
+    "packageManager": {
+      "name": "npm",
+      "onFail": "warn",
+      "version": "11"
+    },
+    "runtime": {
+      "name": "node",
+      "onFail": "warn",
+      "version": "24"
+    }
+  },
   "name": "starter-cf-workers",
   "private": true,
   "scripts": {
